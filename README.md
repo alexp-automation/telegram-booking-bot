@@ -4,6 +4,10 @@ A booking assistant for a small service business (barbershop, salon, studio,
 clinic). Clients book in a few taps, the owner gets every booking in their own
 chat, and nobody has to answer "do you have anything Thursday?" by hand.
 
+![Booking flow in Telegram](screenshots/bot-flow.png)
+
+*Menu → service → time → confirmation (with the owner's alert) → prices. The customer's phone number is blurred.*
+
 ## Client side
 
 - No commands to remember: a persistent menu under the chat (📅 Book an appointment,
