@@ -6,15 +6,17 @@ chat, and nobody has to answer "do you have anything Thursday?" by hand.
 
 ## Client side
 
-- `/start` → choose a service (duration and price shown) → choose a day → choose a free time
+- No commands to remember: a persistent menu under the chat (📅 Book an appointment,
+  🗓 My bookings, 💈 Prices & hours, 📞 Contact us) plus Telegram's Menu button
+- Book → choose a service (duration and price shown) → choose a day → choose a free time
 - Shares phone number with one button, gets a confirmation
 - Automatic reminder the day before
-- `/my` lists upcoming bookings with a Cancel button
+- My bookings lists upcoming bookings with a Cancel button
 
 ## Owner side
 
 - Instant message on every new booking and cancellation
-- `/today` shows the day's agenda with names and phone numbers
+- An extra "Today's schedule" button (owner only) shows the day's agenda with names and phone numbers
 - Working hours, days off and services are set at the top of `bot.py`
 
 ## How it's built
